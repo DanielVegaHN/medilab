@@ -6,25 +6,51 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-custom.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" 
+integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 <link href="css/style.css" rel="stylesheet"> 
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120209914-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-120209914-1');
-</script>
-
-</head>
-
+<!--SEO-->	
+	
+	<meta name="Description" content="medilab es un sitio que encontrará contenido relevante a servicios médicos, laboratorios, doctores  generales y servicios de emergencia.">
+	
+		  <meta name="Description" content="doctores, especialidad médicos, medicina,">
+				</head>
 <body>
 	<header>
-		<div class="container">
-	<img src="img/medilab.png" class="img-responsive" alt="medilab" width="120">
-		</div>
+		<nav class="navbar navbar-default">
+              <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="index.html">
+					<img src="img/medilab.png" class="img-responsive" alt="logo"></a>
+                </div>
+            
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="nav">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Testimonial</a></li>
+					  <li><a href="#">Contact</a></li>
+                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Nosotros <span class="caret"></span></a>
+                        	<ul class="dropdown-menu">
+                            	<li><a href="#">Acerca de</a></li>
+                                <li><a href="#">Quienes Somos</a></li>
+                            </ul>
+                        </li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
 	</header>
 	
 	<section id="sec-intro">
@@ -41,32 +67,36 @@ tempor incididunt ut labore et dolore magna aliqua.</p>
 		</div>
 		 </div>
 		 </section>
+	
+	
 	<section id="sec-services">
 	<div class="container">
 		<div class="row">
 		
 		<article class="col-md-4 col-sm-12 col-xd-12">
-		<h2 class="titulo">Our Services</h2>
+		<h2>Our Services</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris cillum.</p>
 						
 		</article>
 			
 		<article class="col-md-4 col-sm-12 col-xd-12">
-		<span class="icono">24</span>
+		<i class="fas fa-stethoscope"></i>
 		<h3>24 Hours Support</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 			
-		<span class="icono">ES</span>
-		<h2>Emergency Services</h2> 
+		<i class="fas fa-ambulance"></i>
+		<h2>Emergency Services</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 		</article>
 			
 		<article class="col-md-4 col-sm-12 col-xd-12">
-		<span class="icono">MC</span>
+		<i class="fas fa-user-md"></i>
 		<h3>Medical Counseling</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 			
-		<span class="icono">PH</span>
+		<i class="fas fa-first-aid"></i>
+
+
 		<h2>Premium Healthcare</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 		</article>
@@ -76,77 +106,34 @@ tempor incididunt ut labore et dolore magna aliqua.</p>
 	</section>
 	
 	
-	
-	
-	
-	<section id="sec-doctores">
+	<section id="sec-green">
 	<div class="container">
-	  <div class="row">
+		<div class="row">
 		
 		<article class="col-md-4 col-sm-12 col-xd-12">
-		<div class="borde">
-		<h3>Emergency Case</h3>
+		<h2>Emergency Case</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris cillum.</p>
-					<p><a class="btn btn-info btn-medilab">READ MORE</a></p>
+		<p><a href="img/bg-banner.jpg"><span class="readmore">Read More</span></a></p>
 						
 		</article>
-			
-		<article class="col-md-4 col-sm-12 col-xd-12">
-		<div class="borde">
-		<h3>Emergency Case</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-	
-		<br>
-		<p><a class="btn btn-info btn-medilab">READ MORE</a></p>
+			<article class="col-md-4 col-sm-12 col-xd-12">
+		<h2>Emergency Case</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris cillum.</p>
+		<a href="img/bg-banner.jpg"><span class="readmore">Read More</span></a>			
 		</article>
 			
 		<article class="col-md-4 col-sm-12 col-xd-12">
-		<h3>Opening Hours</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-		<p>Monday - Friday &nbsp; &nbsp; 8:00 - 17:00 </p>
-		<p>Saturday &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 8:30 - 17:00</p>
-		<p>Sunday &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 9:30 - 15:00 </p>
+		<h2>Emergency Case</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris cillum.</p>
+		<a href="img/bg-banner.jpg" class="readmore">Read More</a>	
 		</article>
 			
 		</div>
 		</div>
 	</section>
-
 	
-	
-	<section id="sec-doctor">
-	<div class="container">
-	  <div class="row">
-		
-		<article class="col-md-3 col-sm-6 col-xs-12">
-		<img src="img/Jessica.jpg" class="img-responsive" alt=""/>
-<h2 class="titulo">Jessica Wally</h2>
-						
-		</article>
-			
-		<article class="col-md-3 col-sm-6 col-xs-12">
-		<img src="img/Ian.jpg" class="img-responsive" alt="">
-<h2 class="titulo">Ian Donas</h2>
-		
-
-		</article>
-			
-		<article class="col-md-3 col-sm-6 col-xd-12">
-    <div class="borde">
-	    <img src="img/Amanda Denyl.jpg" class="img-responsive"> 
-	    <h2 class="titulo">Amanda Denyl</h2>
-	    </article>
-		
-		  
-		
-		 <article class="col-md-3 col-sm-6 col-xs-12">
-     <div class="borde">
-	     <img src="img/Jason Davis.jpg" class="img-responsive" alt=""/> 
-	     <h2 class="titulo">Jason Davis</h2>
-	     </article>	
-		</div>
-	  </div>
-	</section>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.css"></script>
 	
 </body>
 </html>
